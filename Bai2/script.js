@@ -10,7 +10,7 @@ function indexOfArrays(num, arr) {
     } else {
         for (let i = 0; i < arr.length; i++) {
             if (arr[i] === num) {
-                return ("Mảng thứ " + i + " nằm trong mảng " + arr.toString());
+                return ("Vị trí phần tử " + i + " nằm trong mảng " + arr.toString());
             }
         }
     }
